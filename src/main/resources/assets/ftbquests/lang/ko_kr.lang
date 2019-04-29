@@ -1,0 +1,284 @@
+tile.ftbquests.screen.missing_data=Broken Block / Missing Data!
+tile.ftbquests.screen.name=Task Screen
+tile.ftbquests.screen.task_index=Task Index
+tile.ftbquests.screen.size=Size
+tile.ftbquests.screen.skin=Skin
+tile.ftbquests.screen.indestructible=Indestructible
+tile.ftbquests.screen.input_only=Input Only
+tile.ftbquests.screen.input_mode_icon=Input Mode Icon
+tile.ftbquests.screen.fullscreen=Fullscreen
+tile.ftbquests.screen.hide_icons=Hide Icons
+
+tile.ftbquests.progress_detector.name=Quest Progress Detector
+tile.ftbquests.progress_detector.object=Object ID
+tile.ftbquests.progress_detector.level=Output Level
+tile.ftbquests.progress_screen.name=Progress Screen
+
+tile.ftbquests.chest.name=Quest Chest
+tile.ftbquests.chest.transfer_all=Auto-Transfer All Items
+tile.ftbquests.chest.input=Input Slot
+tile.ftbquests.chest.input_desc=Place items here to complete quests
+tile.ftbquests.chest.output=Output Slot
+tile.ftbquests.chest.output_desc=Rewards will appear here
+
+tile.ftbquests.loot_crate_storage.name=Loot Crate Storage
+tile.ftbquests.loot_crate_opener.name=Loot Crate Opener
+tile.ftbquests.loot_crate_opener.rightclick=Stored items: %d
+
+item.ftbquests.book.name=퀘스트 북
+item.ftbquests.book.disabled=퀘스트 북 GUI가 비활성화 되어있습니다!
+item.ftbquests.lootcrate.name=전리품 상자
+
+ftbquests.rarity.common=커먼
+ftbquests.rarity.uncommon=언커먼
+ftbquests.rarity.rare=레어
+ftbquests.rarity.epic=에픽
+ftbquests.rarity.legendary=레전더리
+
+itemGroup.ftbquests=FTB Quests
+sidebar_button.ftbquests.quests=퀘스트
+sidebar_button.ftbquests.quests.no_team=팀에 참여하여 퀘스트를 완료하세요!
+key.ftbquests.quests=퀘스트 열기
+
+ftbquests.unnamed=이름없음
+ftbquests.team=팀
+ftbquests.progress=진행도
+ftbquests.title=제목
+ftbquests.icon=아이콘
+ftbquests.completion_command=완료 명령어
+ftbquests.dependencies=Dependencies
+ftbquests.dependency=Dependency
+
+ftbquests.null=없음
+ftbquests.file=파일
+ftbquests.file.completed=모든 챕터를 완료하였습니다!
+ftbquests.file.allow_take_quest_blocks=Allow to Take Quest Blocks
+ftbquests.file.allow_take_quest_blocks.tooltip=Allow to obtain Quest Blocks from the Quests GUI.
+ftbquests.file.emergency_items=Emergency Items
+ftbquests.file.emergency_items_cooldown=Emergency Items Cooldown
+ftbquests.file.emergency_items_cooldown.tooltip=Cooldown timer for emergency items to respawn.
+ftbquests.file.defaults=Defaults
+ftbquests.file.defaults.reward_team=Reward 'Team Reward'
+ftbquests.file.defaults.consume_items=Task 'Consume Items'
+ftbquests.file.defaults.quest_shape=Quest Shape
+ftbquests.file.drop_loot_crates=Entities Drop Loot Crates
+ftbquests.file.loot_crate_no_drop=Entity Loot Crate Drop Empty Weight
+ftbquests.file.disable_gui=GUI 사용 안함
+
+ftbquests.loot.entitydrops=엔티티 드롭
+ftbquests.loot.entitytype.passive=패시브
+ftbquests.loot.entitytype.monster=몬스터
+ftbquests.loot.entitytype.boss=보스
+
+ftbquests.chapter=챕터
+ftbquests.chapters=챕터
+ftbquests.chapter.completed=챕터 완료!
+ftbquests.chapter.description=설명
+ftbquests.chapter.always_invisible=항상 보이지 않음
+
+ftbquests.quest=퀘스트
+ftbquests.quests=퀘스트
+ftbquests.quest.completed=퀘스트 완료!
+ftbquests.quest.description=설명
+ftbquests.quest.x=X
+ftbquests.quest.y=Y
+ftbquests.quest.visibility=Visibility
+ftbquests.quest.visibility.visible=Visible
+ftbquests.quest.visibility.secret=Secret
+ftbquests.quest.visibility.invisible=Invisible
+ftbquests.quest.visibility.internal=Internal
+ftbquests.quest.shape=Shape
+ftbquests.quest.shape.circle=Circle
+ftbquests.quest.shape.square=Square
+ftbquests.quest.shape.diamond=Diamond
+ftbquests.quest.shape.rsquare=Rounded Square
+ftbquests.quest.shape.pentagon=Pentagon
+ftbquests.quest.shape.hexagon=Hexagon
+ftbquests.quest.shape.octagon=Octagon
+ftbquests.quest.shape.heart=Heart
+ftbquests.quest.shape.gear=Gear
+ftbquests.quest.text=Text
+ftbquests.quest.can_repeat=Can be repeated
+ftbquests.quest.tasks_ignore_dependencies=Tasks Ignore Dependencies
+ftbquests.quest.tasks_ignore_dependencies.tooltip=Allow to start tasks without completing dependencies
+ftbquests.quest.dependency_requirement=Dependency Requirement
+ftbquests.quest.dependency_requirement.tooltip=Only required when Visibility is set to Secret or Invisible
+ftbquests.quest.dependency_requirement.all_completed=All Completed
+ftbquests.quest.dependency_requirement.one_completed=One Completed
+ftbquests.quest.dependency_requirement.all_started=All Started
+ftbquests.quest.dependency_requirement.one_started=One Started
+ftbquests.quest.guide_page=Guide Page
+ftbquests.quest.custom_click=Custom Click
+ftbquests.quest.hide_dependency_lines=Hide Dependency Lines
+
+ftbquests.gui.edit_file=Edit File
+ftbquests.gui.save_as_file=Save as File
+ftbquests.gui.export_spreadsheet=Export Spreadsheet
+ftbquests.gui.saved_as_file=Saved as %s
+ftbquests.gui.error=Error!
+ftbquests.gui.add_reward_all=Add reward to all
+ftbquests.gui.select_quest_object=Select Quest Object
+ftbquests.gui.select_task_type=Select Task Type
+ftbquests.gui.select_reward_type=Select Reward Type
+ftbquests.gui.reset_progress=Reset Progress
+ftbquests.gui.reset_progress_q=Reset progress for your team?
+ftbquests.gui.complete_instantly=Complete Instantly
+ftbquests.gui.complete_instantly_q=Complete this task instantly?
+ftbquests.gui.set_dep=Set Selected as Dependency
+ftbquests.gui.rem_dep=Remove Dependency
+ftbquests.gui.copy_id=ID 복사
+ftbquests.gui.no_tasks=과제 없음
+ftbquests.gui.no_rewards=보상 없음
+ftbquests.gui.requires=필요
+ftbquests.gui.required_by=Required by
+ftbquests.gui.unclaimed_rewards=미청구된 보상
+ftbquests.gui.times_completed=Times completed
+ftbquests.gui.quick_complete=빠른 완료
+ftbquests.gui.quick_complete.info_1=모든 아이템 제출
+ftbquests.gui.quick_complete.info_2=모든 보상 청구
+ftbquests.gui.subscribe=Like this mod? Consider supporting me on twitch.tv!
+ftbquests.gui.looping_dependencies=Looping dependencies!
+ftbquests.gui.open_in_guide=가이드 열기
+
+ftbquests.task=과제
+ftbquests.tasks=과제
+ftbquests.task.completed=과제 완료!
+ftbquests.task.click_to_submit=아이템을 제출 하려면 클릭하세요
+ftbquests.task.auto_detected=아이템이 자동으로 감지됨
+ftbquests.task.click_to_submit_all=모든 아이템을 제출하려면 클릭하세요
+ftbquests.task.max_input=최대 입력
+
+ftbquests.task.ftbquests.item=아이템
+ftbquests.task.ftbquests.item.items=아이템 목록
+ftbquests.task.ftbquests.item.count=갯수
+ftbquests.task.ftbquests.item.consume_items=소모되는 아이템
+ftbquests.task.ftbquests.item.ignore_damage=손상 무시
+ftbquests.task.ftbquests.item.nbt_mode=NBT 모드
+ftbquests.task.ftbquests.item.consume_true=소모되는 아이템
+ftbquests.task.ftbquests.item.consume_false=소모되는 아이템이 없습니다
+ftbquests.task.ftbquests.item.valid_items=유효한 아이템:
+
+ftbquests.task.ftbquests.fluid=액체
+ftbquests.task.ftbquests.fluid.fluid=액체
+ftbquests.task.ftbquests.fluid.fluid_nbt=액체 NBT
+ftbquests.task.ftbquests.fluid.amount=양
+
+ftbquests.task.ftbquests.forge_energy=포지 에너지(Forge Energy)
+ftbquests.task.ftbquests.forge_energy.value=FE / RF
+ftbquests.task.ftbquests.forge_energy.text=%d FE
+
+ftbquests.task.ftbquests.xp=XP 레벨
+ftbquests.task.ftbquests.xp.value=XP
+ftbquests.task.ftbquests.xp.points=포인트
+ftbquests.task.ftbquests.xp.points.tooltip=레벨 대신 XP 포인트를 사용하여 완료하세요. 계산기를 사용하여 값이 어떻게 되는지 알아보세요.
+ftbquests.task.ftbquests.dimension=차원 찾아가기
+
+ftbquests.task.ftbquests.stat=스탯
+ftbquests.task.ftbquests.stat.stat=스탯 이름
+ftbquests.task.ftbquests.stat.value=값
+
+ftbquests.task.ftbquests.kill=엔티티 사냥
+ftbquests.task.ftbquests.kill.entity=엔티티 명
+ftbquests.task.ftbquests.kill.value=수
+
+ftbquests.task.ftbquests.location=위치
+ftbquests.task.ftbquests.location.dim=차원
+ftbquests.task.ftbquests.location.ignore_dim=Ignore Dimension
+ftbquests.task.ftbquests.location.x=X
+ftbquests.task.ftbquests.location.y=Y
+ftbquests.task.ftbquests.location.z=Z
+ftbquests.task.ftbquests.location.w=W
+ftbquests.task.ftbquests.location.h=H
+ftbquests.task.ftbquests.location.d=D
+
+ftbquests.task.ftbquests.checkmark=체크마크
+
+ftbquests.task.ftbquests.buildcraft_mj=빌드크래프트 에너지(BuildCraft Energy)
+ftbquests.task.ftbquests.buildcraft_mj.value=MJ
+ftbquests.task.ftbquests.buildcraft_mj.text=%d MJ
+
+ftbquests.task.ftbquests.ic2_energy=IC2 에너지(IC2 Energy)
+ftbquests.task.ftbquests.ic2_energy.value=EU
+ftbquests.task.ftbquests.ic2_energy.text=%d EU
+
+ftbquests.task.ftbquests.botania_mana=보타니아 마나
+ftbquests.task.ftbquests.botania_mana.value=마나
+ftbquests.task.ftbquests.botania_mana.show_numbers=Show Numbers
+ftbquests.task.ftbquests.botania_mana.text=%d 마나
+
+ftbquests.task.ftbquests.emc=EMC
+
+ftbquests.reward=보상
+ftbquests.rewards=보상
+ftbquests.reward.team_reward=팀 보상
+ftbquests.reward.emergency=비상 아이템
+ftbquests.reward.claim_all=모든 보상 획득
+ftbquests.reward.collected=보상을 수집하였습니다!
+ftbquests.reward.random_bonus=랜덤 보너스
+
+ftbquests.reward.ftbquests.item=아이템
+ftbquests.reward.ftbquests.item.only_one=단 하나
+ftbquests.reward.ftbquests.item.only_one.tooltip=If inventory has that item, doesn't give it. Ignores NBT.
+ftbquests.reward.ftbquests.choice=선택 보상
+ftbquests.reward.ftbquests.random=랜덤 보상
+ftbquests.reward.ftbquests.loot=전리품 보상
+ftbquests.reward.ftbquests.xp=XP
+ftbquests.reward.ftbquests.xp_levels=XP 레벨
+ftbquests.reward.ftbquests.command=Command
+
+ftbquests.variable=Variable
+ftbquests.variable.max_value=Max Value
+ftbquests.variable.team=Team can set it's own value
+ftbquests.variables=Variables
+ftbquests.variable.max=Max Value
+
+ftbquests.reward_table=보상 테이블
+ftbquests.reward_table.hide_tooltip=툴팁 숨기기
+ftbquests.reward_table.use_title=제목 사용
+ftbquests.reward_table.edit=보상 테이블 편집
+ftbquests.reward_tables=보상 테이블
+ftbquests.reward_table.nothing=Nothing
+ftbquests.reward_table.and_more=...and %d more
+ftbquests.reward_table.empty_weight=Empty Weight
+ftbquests.reward_table.loot_size=Loot Size
+ftbquests.reward_table.weight=Weight
+ftbquests.reward_table.set_weight=Set Weight
+ftbquests.reward_table.enable_loot_crate=전리품 상자
+ftbquests.reward_table.loot_crate.id=ID
+ftbquests.reward_table.loot_crate.item_name=아이템 명
+ftbquests.reward_table.loot_crate.color=색상
+ftbquests.reward_table.loot_crate.glow=Glow
+ftbquests.reward_table.loot_crate.passive_weight=Weight (Passive)
+ftbquests.reward_table.loot_crate.monster_weight=Weight (Monster)
+ftbquests.reward_table.loot_crate.boss_weight=Weight (Boss)
+ftbquests.reward_table.used_in=Used in %d Quest Rewards
+
+ftbquests.leaderboard_progress=FTB 퀘스트 진행도
+jei.ftbquests.lootcrates=전리품 상자
+jei.ftbquests.lootcrates.chance=확률: %s
+jei.ftbquests.lootcrates.no_chance=아이템 없을 확률: %s
+jei.ftbquests.lootcrates.dropped_by=다음으로 부터 획득:
+
+commands.ftbquests.usage=/ftbquests [subcommand]
+commands.ftbquests.editing_mode.usage=/ftbquests editing_mode [true|false|toggle] [player]
+commands.ftbquests.editing_mode.enabled=Editing Mode for %s Enabled
+commands.ftbquests.editing_mode.disabled=Editing Mode for %s Disabled
+commands.ftbquests.change_progress.usage=/ftbquests change_progress <type> <team|*> [object ID]
+commands.ftbquests.change_progress.invalid_id=Invalid Object ID!
+commands.ftbquests.change_progress.text=Progress has been changed!
+commands.ftbquests.set_variable.usage=/ftbquests set_variable <team> <variable ID> <value>
+commands.ftbquests.set_variable.invalid_id=Invalid Variable ID!
+commands.ftbquests.set_variable.set=Variable set!
+commands.ftbquests.change_team_rewards.usage=/ftbquests change_team_rewards <*|chapter> <true|false>
+commands.ftbquests.change_team_rewards.invalid_id=Invalid Chapter ID!
+commands.ftbquests.change_team_rewards.text=Changed %d reward team setting to %s
+commands.ftbquests.change_consumable.usage=/ftbquests change_consumable <*|chapter> <true|false>
+commands.ftbquests.change_consumable.text=Changed %d item task consumable setting to %s
+commands.ftbquests.import_rewards_from_chest.usage=/ftbquests import_rewards_from_chest <reward_table> [weight] [replace]
+commands.ftbquests.import_rewards_from_chest.invalid_id=Invalid Reward Table ID!
+commands.ftbquests.import_rewards_from_chest.text=Imported %d items into %s
+commands.ftbquests.weigh_from_emc.usage=/ftbquests weigh_from_emc <reward_table> [missing_emc_weight]
+commands.ftbquests.weigh_from_emc.invalid_id=Invalid Reward Table ID!
+commands.ftbquests.weigh_from_emc.text=Changed item reward weight based on EMC in %s
+commands.ftbquests.export_rewards_to_chest.usage=/ftbquests export_rewards_to_chest <reward_table>
+commands.ftbquests.export_rewards_to_chest.text=Exported %s / %s items from '%s'
